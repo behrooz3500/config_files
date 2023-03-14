@@ -9,7 +9,7 @@
 :set mouse=a			"Enable the use of the mouse. (a: for all modes)
 :set foldmethod=indent	"When on, the folding indicator is shown.
 :set foldlevelstart=99	"When on, the folding indicator is shown.
-:set expandtab
+:set expandtab          "Don't recognize it
 :set encoding=utf-8     " Set the encoding for the file.
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
